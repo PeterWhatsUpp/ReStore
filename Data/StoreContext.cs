@@ -11,6 +11,7 @@ namespace API.Data
         }
 
         public DbSet<Product> Products { get; set; } =null!;
+        public DbSet<Basket> Baskets { get; set; } =null!;
 
     }
 }
